@@ -6,12 +6,10 @@ body {
 .proveway-prj-main-div {
     height: auto;
     width: 100%;
-    /* padding: 10% 10% 10% 10%; */
+
 }
 
 .proveway-prj-main-div-inner1 {
-
-    /* margin: 10% 10% 10% 10%; */
     padding: 0% 20% 0% 20%;
 
 }
@@ -36,7 +34,7 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    /* width: 40%; */
+  
 }
 
 .proveway-prj-main-div-inner1-row1-col3 {
@@ -49,7 +47,6 @@ body {
 
 .proveway-prj-main-div-inner1-row1-col2-p1 {
     margin: 0 5px 0 5px;
-    /*beacause of by default take margin*/
     font-family: "Inter", sans-serif;
     color: #FF6B82;
     font-size: 2.5rem;
@@ -223,13 +220,8 @@ body {
 }
 
 
-
-
-/**/
 .proveway-prj-main-div-inner1-row2-corner-div {
     position: relative;
-    /* Needed for absolute positioning inside */
-
 }
 
 /* Corner bar wrapper */
@@ -241,12 +233,12 @@ body {
     align-items: center;
     justify-content: end;
     height: 10px;
-    /* Adjust height if needed */
+   
     z-index: 10;
     margin: 2% 0 0 0;
 }
 
-/* Triangular corners */
+
 .proveway-prj-main-div-inner1-row2-corner-div-left-corner,
 .proveway-prj-main-div-inner1-row2-corner-div-right-corner {
     width: 0;
@@ -259,14 +251,14 @@ body {
 
 .proveway-prj-main-div-inner1-row2-corner-div-left-corner {
     transform: scaleX(-1);
-    /* Mirror left triangle */
+  
 }
 
 .proveway-prj-main-div-inner1-row2-corner-div-center-bar {
     background-color: #ff667b;
     height: 10px;
     width: 21.2%;
-    /* Adjust as needed */
+  
 }
 
 
