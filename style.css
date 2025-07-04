@@ -1,0 +1,539 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.proveway-prj-main-div {
+    height: auto;
+    width: 100%;
+    /* padding: 10% 10% 10% 10%; */
+}
+
+.proveway-prj-main-div-inner1 {
+
+    /* margin: 10% 10% 10% 10%; */
+    padding: 0% 20% 0% 20%;
+
+}
+
+
+.proveway-prj-main-div-inner1-row1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.proveway-prj-main-div-inner1-row1-col1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+}
+
+.proveway-prj-main-div-inner1-row1-col2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* width: 40%; */
+}
+
+.proveway-prj-main-div-inner1-row1-col3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+}
+
+.proveway-prj-main-div-inner1-row1-col2-p1 {
+    margin: 0 5px 0 5px;
+    /*beacause of by default take margin*/
+    font-family: "Inter", sans-serif;
+    color: #FF6B82;
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: max-content;
+}
+
+
+.proveway-prj-main-div-inner1-row1-col1-line {
+    width: 100%;
+    color: #C8C8C8;
+}
+
+/* Radio  Btn css */
+.proveway-radio-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.proveway-custom-radio {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 4px solid #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.proveway-custom-radio.selected {
+    border-color: #ff5e7d;
+}
+
+.proveway-custom-radio .proveway-inner-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+
+.proveway-custom-radio.selected .proveway-inner-circle {
+    background-color: #ff5e7d;
+}
+
+/* Radio  Btn css End */
+
+
+/* Row 2*/
+
+.proveway-prj-main-div-inner1-row2 {
+    display: flex;
+    border: 2px solid #C8C8C8;
+    padding: 2% 0% 2% 0%;
+    margin: 2% 0% 0% 0%;
+}
+
+.proveway-prj-main-div-inner1-row2:hover {
+    border: 2px solid #ff5e7d;
+    background: #FFF9FA;
+}
+
+.proveway-prj-main-div-inner1-row2-FORActiveBTN {
+    border: 2px solid #ff5e7d !important;
+    background: #FFF9FA !important;
+}
+
+.proveway-prj-main-div-inner1-row2-signle-txt {
+    align-items: center;
+    margin: 0 !important;
+
+    border: 2px solid #C8C8C8;
+    padding: 0% 0% 2% 0%;
+    margin: 2% 0% 0% 0%;
+}
+
+.proveway-prj-main-div-inner1-row2-signle-txt:hover {
+    border: 2px solid #ff5e7d;
+    background: #FFF9FA;
+
+}
+
+.proveway-prj-main-div-inner1-row2-signle-txt-FORActiveBTN {
+    border: 2px solid #ff5e7d !important;
+    background: #FFF9FA !important;
+
+}
+
+.proveway-prj-main-div-inner1-row2-2nd-crd-inner {
+    display: flex;
+    margin: 0% 0% 0% 0%;
+}
+
+.proveway-prj-main-div-inner1-row2-most-popular-div {
+    display: flex;
+    justify-content: end;
+    margin: 0% 0% 1% 0%;
+}
+
+.proveway-prj-main-div-inner1-row2-most-popular-div-p1 {
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #FF6B82;
+    padding: 0px 10px 5px 10px;
+    border-radius: 0px 0px 8px 8px;
+    width: 19%;
+    margin: -2px 1.2% 0 0;
+    text-align: center;
+}
+
+.proveway-prj-main-div-inner1-row2-col1 {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proveway-prj-main-div-inner1-row2-col2 {
+    width: 60%;
+}
+
+.proveway-prj-main-div-inner1-row2-col3 {
+    width: 30%;
+}
+
+.proveway-prj-main-div-inner1-row2-col2-p1 {
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.proveway-prj-main-div-inner1-row2-col2-p1-span {
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    background-color: #FF6B82;
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+}
+
+.proveway-prj-main-div-inner1-row2-col2-p2 {
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 3% 0% 0% 0%;
+}
+
+.proveway-prj-main-div-inner1-row2-col3-p1 {
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.proveway-prj-main-div-inner1-row2-col3-p2 {
+    color: #C8C8C8;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 3% 0% 0% 0%;
+    text-decoration: line-through;
+}
+
+
+
+
+/**/
+.proveway-prj-main-div-inner1-row2-corner-div {
+    position: relative;
+    /* Needed for absolute positioning inside */
+
+}
+
+/* Corner bar wrapper */
+.proveway-prj-main-div-inner1-row2-corner-div-corner-wrapper {
+    position: relative;
+    top: 0;
+    right: -1%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 10px;
+    /* Adjust height if needed */
+    z-index: 10;
+    margin: 2% 0 0 0;
+}
+
+/* Triangular corners */
+.proveway-prj-main-div-inner1-row2-corner-div-left-corner,
+.proveway-prj-main-div-inner1-row2-corner-div-right-corner {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #e63950;
+}
+
+.proveway-prj-main-div-inner1-row2-corner-div-left-corner {
+    transform: scaleX(-1);
+    /* Mirror left triangle */
+}
+
+.proveway-prj-main-div-inner1-row2-corner-div-center-bar {
+    background-color: #ff667b;
+    height: 10px;
+    width: 21.2%;
+    /* Adjust as needed */
+}
+
+
+/*cards table css*/
+
+.proveway-prj-main-div-inner1-row2-col2-table-div {
+    display: none;
+}
+
+.proveway-prj-main-div-inner1-row2-col2-table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.proveway-prj-main-div-inner1-row2-col2-table-th {
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 2% 0% 2% 0%;
+    width: 40%;
+}
+
+.proveway-prj-main-div-inner1-row2-col2-table-td1 {
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 2% 0% 2% 0%;
+
+}
+
+.proveway-prj-main-div-inner1-row2-col2-table-select1 {
+    border: 0.9px solid #D9D9D9;
+    width: 100%;
+    padding: 3px 10px 3px 5px;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+}
+
+.proveway-prj-main-div-inner1-row2-col2-table-select2 {
+    border: 0.9px solid #D9D9D9;
+    width: 100%;
+    padding: 3px 10px 3px 5px;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+
+}
+
+/*cards table css END*/
+
+
+.proveway-prj-main-div-inner1-row3 {
+
+    display: flex;
+}
+
+.proveway-prj-main-div-inner1-row3-col1 {
+    width: 50%;
+}
+
+.proveway-prj-main-div-inner1-row3-col2 {
+    width: 50%;
+    text-align: end;
+}
+
+.proveway-prj-main-div-inner1-row3-col1-p1 {
+    font-family: "Inter", sans-serif;
+    color: #FF6B82;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 2% 0% 2% 0%;
+
+}
+
+.proveway-prj-main-div-inner1-row3-col2-p1 {
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 2% 0% 2% 0%;
+}
+
+.proveway-prj-main-div-inner1-btn1 {
+    background-color: #FF6B82;
+    width: 100%;
+    border: none;
+    padding: 1% 0% 1% 0%;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    border-radius: 6px;
+
+}
+
+.proveway-prj-main-div-inner1-btn1-icon1 {
+    margin: 0 10px 0 0;
+    font-size: 1.5rem;
+}
+
+.proveway-prj-main-div-inner1-poweredBy-p {
+    font-family: "Inter", sans-serif;
+    color: #00000066;
+    text-align: end;
+    margin: 1% 0% 0% 0%;
+    font-style: italic;
+}
+
+
+
+
+
+
+/* Media Query Code*/
+@media (min-width:310px) and (max-width:515px) {
+    .proveway-prj-main-div-inner1 {
+
+        padding: 0% 5% 0% 5%;
+    }
+
+    .proveway-prj-main-div-inner1-row1-col2-p1 {
+        font-size: 1.6rem;
+
+    }
+
+
+    .proveway-prj-main-div-inner1-row2-col2-p1 {
+        font-size: 1rem;
+    }
+
+    .proveway-prj-main-div-inner1-row2-col2-p2 {
+        font-size: 1rem;
+    }
+
+    .proveway-prj-main-div-inner1-row2-col3-p1 {
+        font-size: 1rem;
+    }
+
+    .proveway-prj-main-div-inner1-row2-col3-p2 {
+
+        font-size: 1rem;
+    }
+
+    .proveway-prj-main-div-inner1-row2-col2-p1-span {
+        font-size: 1rem;
+    }
+
+    .proveway-custom-radio {
+        width: 20px;
+        height: 20px;
+    }
+
+    .proveway-custom-radio .proveway-inner-circle {
+        width: 10px;
+        height: 10px;
+    }
+
+    .proveway-prj-main-div-inner1-row3-col1-p1 {
+        font-size: 1rem;
+    }
+
+    .proveway-prj-main-div-inner1-row3-col2-p1 {
+        font-size: 1rem;
+    }
+
+    .proveway-prj-main-div-inner1-row2-most-popular-div-p1 {
+        width: 38%;
+    }
+    .proveway-prj-main-div-inner1-row2-corner-div-center-bar {
+      
+        width: 42.2%;
+    }
+    .proveway-prj-main-div-inner1-row2-most-popular-div-p1 {
+        font-size: 0.7rem;
+        margin: -3px 3.4% 0 0;
+        text-align: center;
+    }
+    
+}
+
+@media (min-width:516px) and (max-width:768px) {
+    .proveway-prj-main-div-inner1 {
+
+        padding: 0% 10% 0% 10%;
+    }
+
+
+    .proveway-prj-main-div-inner1-row1-col2-p1 {
+        font-size: 1.8rem;
+
+    }
+
+
+    .proveway-prj-main-div-inner1-row2-col2-p1 {
+        font-size: 1.2rem;
+    }
+
+    .proveway-prj-main-div-inner1-row2-col2-p2 {
+        font-size: 1rem;
+    }
+
+    .proveway-prj-main-div-inner1-row2-col3-p1 {
+        font-size: 1.2rem;
+    }
+
+    .proveway-prj-main-div-inner1-row2-col3-p2 {
+
+        font-size: 1rem;
+    }
+
+    .proveway-prj-main-div-inner1-row2-col2-p1-span {
+        font-size: 1rem;
+    }
+
+    .proveway-custom-radio {
+        width: 20px;
+        height: 20px;
+    }
+
+    .proveway-custom-radio .proveway-inner-circle {
+        width: 10px;
+        height: 10px;
+    }
+
+    .proveway-prj-main-div-inner1-row3-col1-p1 {
+        font-size: 1.2rem 19.2px;
+    }
+
+    .proveway-prj-main-div-inner1-row3-col2-p1 {
+        font-size: 1.2rem;
+    }
+
+
+
+    .proveway-prj-main-div-inner1-row2-most-popular-div-p1 {
+        width: 39.2%;
+    }
+    .proveway-prj-main-div-inner1-row2-corner-div-center-bar {
+      
+        width: 42.2%;
+    }
+    .proveway-prj-main-div-inner1-row2-most-popular-div-p1 {
+       
+        margin: -3px 2% 0 0;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
+
+
+@media (min-width:769px) and (max-width:999px) {
+    .proveway-prj-main-div-inner1-row2-most-popular-div-p1 {
+      
+        margin: -4px 1.2% 0 0;
+        text-align: center;
+    }
+
+
+    .proveway-prj-main-div-inner1-row2-most-popular-div-p1 {
+        width: 39.2%;
+    }
+    .proveway-prj-main-div-inner1-row2-corner-div-center-bar {
+      
+        width: 42.2%;
+    }
+    .proveway-prj-main-div-inner1-row2-most-popular-div-p1 {
+       
+        margin: -3px 2% 0 0;
+        text-align: center;
+    }
+}
